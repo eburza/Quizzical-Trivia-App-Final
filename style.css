@@ -1,0 +1,141 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F5F7FB;
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Karla', sans-serif;
+    padding: 2rem 3rem 4rem;
+}
+
+/* blobs */
+.blobs {
+    height: 20%;
+    width: 20%;
+}
+
+.yellow-blob {
+    position: absolute;
+    width: 297px;
+    height: 235px;
+    left: 540.85px;
+    top: 196.73px;
+    transform: rotate(-128.49deg);
+    background: #FFFAD1;
+    border-radius: 30%;
+}
+
+.blue-blob {
+    width: 297px;
+    position: absolute;
+    left: -149px;
+    height: 235px;
+    top: 432px;
+    background: #DEEBF8;
+    border-radius: 25% 70%;
+}
+/* button */
+
+.button {
+    padding: 0.75rem 2rem;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 1.25em;
+    text-align: center;
+    color: #F5F7FB;
+    background-color: #4D5B9E;
+    border: none;
+    border-radius: 0.5rem;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+
+}
+
+button:active {
+    box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.3); /* Cień wewnętrzny */
+}
+
+button:focus {
+    outline: none;
+}
+
+/* welcome page */
+
+.welcome-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2em;
+    height: 100vh;
+    color: #293264;
+    text-align: center;
+}
+
+.quiz-name {
+    font-size: 3.25em;
+    margin: 0;
+}
+
+.quiz-intro {
+    width: 75%;
+    line-height: 1.45em;
+    font-size: 1em;
+    margin: 0;
+}
+
+.quiz-master {
+    font-weight: bold;
+}
+
+/* Quizz page */
+
+.question {
+    color: #293264;
+    font-size: 1.25em;
+    margin: 0
+}
+
+.question-block {
+    padding: 1.5rem 0rem 1rem;
+    border-bottom: 0.025rem solid #4D5B9E;
+}
+
+.answer-block {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.answer {
+    font-size: 0.85em;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 0.025rem solid #4D5B9E;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    max-width: 100%;
+}
+
+.selected {
+    background-color: #D6DBF5;
+    border: none;
+}
+
+/* App page*/
+
+.answersCheck {
+    margin: 2rem 0 2rem auto;
+    display: block;
+}
+
+.coutAnswers {
+    display: block;
+    text-align: right;
+    margin: 2rem 0;
+}

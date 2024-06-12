@@ -1,0 +1,21 @@
+{
+  "name": "Quizzical-Trivia-App",
+  "description": "https://v2.scrimba.com/the-frontend-developer-career-path-c0j/~0vh",
+  "scripts": {
+    "watch": "webpack -w",
+    "build": "webpack"
+  },
+  "dependencies": {
+    "he": "^1.2.0",
+    "nanoid": "^5.0.7",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "webpack": "^2.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.0",
+    "babel-loader": "^7.0",
+    "babel-preset-env": "*",
+    "babel-preset-react": "*"
+  }
+}
